@@ -1,4 +1,4 @@
-# Sleep!
+# Sleep
 
 This playground was designed and developed by **Duraid Abdul**.
 
