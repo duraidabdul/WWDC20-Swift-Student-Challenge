@@ -11,7 +11,7 @@ This playground was designed and developed by **Duraid Abdul**.
 
 **Coding Conventions:**
  - This project uses the prefix SLP for all UIKit classes, and no prefix for SwiftUI views and additional source files.
- - UI controllers, components and models have been split into modular, highly reusable components, as documented below.
+ - UI controllers, components and models have been split into modular, highly reusable components, as documented in Chapter 1.
 
 **References:**
 
