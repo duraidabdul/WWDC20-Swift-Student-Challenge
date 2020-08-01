@@ -1,4 +1,4 @@
-# Sleep
+# My WWDC20 Swift Student Challenge Submission
 
 This playground was designed and developed by **Duraid Abdul**.
 
