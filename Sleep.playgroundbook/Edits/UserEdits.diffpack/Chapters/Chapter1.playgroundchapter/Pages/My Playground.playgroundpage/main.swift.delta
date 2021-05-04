@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import PlaygroundSupport
+
+// MARK: FOR OPTIMAL PERFORMANCE, TOGGLE "ENABLE RESULTS" OFF
+/*:
+
+# Welcome to my playground!
+
+This playground was designed and developed by **Duraid Abdul**.
+
+**Abstract:** As a developer, student and musician, I have always valued sleep as a way to stay sharp and active throughout the day. Sometimes it's easy to forget how important sleep is, and I've created this playground to demonstrate my idea for a simple and interactive way to educate people on the topic. I hope you enjoy my playground and learn something new!
+
+**Accessibility:** This playground was designed to be used by everyone, and supports accessibility features offered by iOS, including:
+ - Small and large text sizes
+ - Voice Control (e.g. "show names")
+ - VoiceOver
+
+**Coding Conventions:**
+ - This project uses the prefix SLP for all UIKit classes, and no prefix for SwiftUI views and additional source files.
+ - UI controllers, components and models have been split into modular, highly reusable components, as documented below.
+
+**References:**
+
+[Mayo Clinic](https://www.mayoclinic.org)
+
+[National Sleep Foundation](https://www.sleepfoundation.org)
+*/
+
+let homeViewController = SLPHomeViewController()
+
+PlaygroundPage.current.liveView = homeViewController
+homeViewController.welcomeToMyPlayground()
+
+/*:
+
+# Documentation
+
+**UserData:** ObservableObject *(Combine)*
+
+User data including randomly generated sleep data and username.
+
+**SLPHomeViewController:** UIViewController *(UIKit)*
+
+This controller is in charge of displaying the three SLPHomeButtons and SLPNavigationBar. It also handles certain components of the navigation system.
+
+**SLPNavigationBar:** UIViewController *(UIKit)*
+
+This view displays the navigation bar contents, which include a back button and a profile view.
+
+**ProfileView:** View *(SwiftUI)*
+
+This view displays the username and profile picture of the user.
+
+**SLPHomeButton:** UIView *(UIKit)*
+
+This view handles the layout of given symbols and text into a rounded rectangle to be displayed on the home screen.
+
+**SLPPushedView:** UIView *(UIKit)*
+
+This view handles interactive navigation, allowing the user to swipe back to the previous view.
+
+**SLPInsightView:** SLPushedView *(UIKit)*
+
+This view handles the layout of given symbols and text as a title header. It adopts the behaviour of an SLPPushedView.
+
+**SLPAboutView:** SLPInsightView *(UIKit)*
+
+The first of three pushed views. This view displays the Starry Night art view, and describes the phases of sleep.
+
+**StarryNightView:** View *(SwiftUI, Core Motion)*
+
+Artwork depicting a starry night.
+
+**SLPHealthView:** SLPInsightView *(UIKit)*
+
+The second of three pushed views. This view displays the Illumination art view, and presents tips for maintaining a healthy sleep schedule.
+
+**IlluminationView:** View *(SwiftUI)*
+
+Artwork depicting dimming neon-esque lights.
+
+**SLPTrendsView:** SLPInsightView *(UIKit)*
+
+The last of three pushed views. This view displays a graph of randomly generated sleep data, and a control allowing the user to set a personal sleep goal.
+
+**GraphView:** View *(SwiftUI)*
+
+Graph depicting the last 5 days of randomly generated sleep data.
+
+**SLPTrendGoalAdjustmentView:** UIView *(UIKit)*
+
+This view displays a custom control that allows the user to change their desired sleep goal.
+
+## General Navigation Hierarchy
+
+
+````
+ .________SLPHomeViewController________.
+ |                                     |
+ |          SLPNavigationBar           |
+ |                                     |
+ | SLPHomeButton ←→ SLPInformationView |
+ | SLPHomeButton ←→ SLPInformationView |
+ | SLPHomeButton ←→ SLPInformationView |
+ |_____________________________________|
+````
+*/
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 609}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
