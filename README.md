@@ -19,9 +19,6 @@ This playground was designed and developed by **Duraid Abdul**.
 
 [National Sleep Foundation](https://www.sleepfoundation.org)
 
-![](https://github.com/duraidabdul/Sleep/blob/master/Demo.gif?raw=true)
-
-![](https://github.com/duraidabdul/Sleep/blob/master/Images/Home.jpg?raw=true)
+![](https://github.com/duraidabdul/Sleep/blob/master/Images/Demo.gif?raw=true)
 ![](https://github.com/duraidabdul/Sleep/blob/master/Images/About.jpg?raw=true)
 ![](https://github.com/duraidabdul/Sleep/blob/master/Images/Trends.jpg?raw=true)
-![](https://github.com/duraidabdul/Sleep/blob/master/Images/Health.jpg?raw=true)
